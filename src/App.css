@@ -1,0 +1,69 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/image/background-weather.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: goldenrod;
+
+}
+
+.card{
+    width:100%;
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 25px;
+    border-radius: 15px;
+    display: grid;
+}
+
+
+
+.card__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.card__subtitle{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 5px;
+
+}
+.card__temperature{
+    text-align: center;
+    color: gray;
+}
+.card__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.card__footer{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+    background-color:greenyellow;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
